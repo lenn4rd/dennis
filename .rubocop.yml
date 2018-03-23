@@ -1,0 +1,33 @@
+AllCops:
+  Exclude:
+    - 'bin/*'
+    - 'spec/*'
+    - 'dennis.gemspec'
+    - 'Rakefile'
+
+Metrics/LineLength:
+  Enabled: false
+
+# Style/AlignParameters:
+#   Enabled: false
+
+# Style/ClassAndModuleChildren:
+#   Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+# Style/FormatString:
+#   Enabled: false
+
+# Style/MultilineOperationIndentation:
+#   Enabled: false
+
+# Layout/SpaceBeforeFirstArg:
+#   Enabled: false
+
+# Style/SpecialGlobalVars:
+#   Enabled: false
